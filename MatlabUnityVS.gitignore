@@ -1,3 +1,6 @@
+#custom to this repo
+*.mat
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
@@ -12,6 +15,7 @@ $RECYCLE.BIN/
 *.dll
 *.exe
 
+
 # Windows Installer files
 *.cab
 *.msi
@@ -20,6 +24,13 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# =========================
+# OFFICE and content mgmt
+# =========================
+*.docx
+*.pptx
+*.pdf
 
 # =========================
 # Operating System Files
@@ -63,6 +74,7 @@ Temporary Items
 
 # Compiled MEX binaries (all platforms)
 *.mex*
+
 
 # Simulink Code Generation
 slprj/
